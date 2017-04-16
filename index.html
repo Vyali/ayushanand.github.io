@@ -1,0 +1,175 @@
+<!doctype html>
+<html ng-app="myapp">
+	<head>
+		<script type="text/javascript" src="angular/angular.min.js"></script>
+		<script type="text/javascript" src="angular/angular.js"></script>
+		<script type="text/javascript" src="app.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+         <link rel="stylesheet" href="style.css">
+		
+	</head>
+<body ng-controller="RequestController as requestCtrl">
+				<nav class="navbar navbar-inverse">
+			 <div class="container-fluid">
+			 	<div class="navbar-header">
+    			
+    			   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					        <span class="sr-only">Toggle navigation</span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+
+					      </button>
+     		
+
+      				<a class="navbar-brand" href="#">
+             			<img alt="icon" src="docsym.png" class="img-circle" width="25" height="25"/>
+     				 </a>
+   				 </div>
+   				<!--- <p class = "navbar-text">temp :place</p>-->
+   				 	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		   				 <ul class ="nav navbar-nav">
+		   				 	<li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
+		   				 	<li><a href="#aboutme">About Me</a></li>
+		   				 	<li><a href="#contactme">Contact Me</a></li>
+		   				 	<li><a href="#twitter">Tweets</a></li>
+		   				 </ul>
+		               
+				</div>	
+			 </div>
+
+			
+</nav>
+
+<div class="container" class="col-lg-12 col-md-12 col-xs-12" class="modal-body">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  	<ol class="carousel-indicators">
+  		<li data-target="#myCarousel" data-slide-to="0" class="active"> </li>
+  		<li data-target="#myCarousel" data-slide-to="1"> </li>
+  		<li data-target="#myCarousel" data-slide-to="2"> </li>
+  		
+  	</ol>
+  	
+  	<!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="im1.jfif" style="width:100%;" alt="Chania">
+
+    </div>
+
+    <div class="item">
+      <img src="1.jpg" style="width:100%;" alt="Chania">
+    </div>
+
+    <div class="item">
+      <img src="im3.jfif" style="width:100%; alt="Flower">
+    </div>
+
+   
+  </div>
+  <p class="banner">Hospital Name</p>
+  <p class="banner-info">Street no-3 Golghar Gorakhpur UP India 273010</p>
+</div>
+</div>
+<div style="padding-top: 10px">
+<h3 class="h3" align="center" style="padding-top:10px" id="aboutme"> About Me</h3>
+<div  class="col-lg-4 col-md-4 col-xs-12" style="padding-top: 10px">
+	<div class="card">
+		 
+		  <div class="container" style="width:100%">
+		  <!-- <img src="cloud.jfif" alt="Avatar" style="width:5%; ">
+		    <p><span><b>John Doe</b></span><br/> 
+		    <span>Architect & Engineer</span> </p>-->
+		     <img src="dp.jfif" class="img-circle img-responsive" style="width:100%;" />
+		    <h3 class="txt-color" align="center">Doctor Name</h3>
+				<p class="txt-color" align="center">MBBS,MS</p>
+				<p class="txt-color" align="center">Major</p>
+		  </div>  	
+ 
+   </div>
+   	<div class="card">
+		<div class="cointainer" style="width:100%">
+		<h3 id="contactme" align="center">Contact me</h3>
+			<div class="footer-info">
+						<div>	
+							<i class="glyphicon glyphicon-home"></i>
+							<p class="p1">Residential address</p> 
+							<p class="p2">State, Country</p>
+						</div>
+						<div>	
+							<i class="glyphicon glyphicon-home"></i>
+							<p class="p1">office address</p> 
+							<p class="p2">State, Country</p>
+						</div>
+						<div>
+							<i class="glyphicon glyphicon-earphone"></i>
+							<p class="p1">mob num</p>
+							<p class="p2">office num</p>
+						</div>
+						<div>
+							<i class="glyphicon glyphicon-envelope"></i>
+							
+							<p class="p1"><a href="mailto:hok.docname@gmail.com">hok.docname@gmail.com</a></p> 
+							
+						</div>
+					</div>
+
+		</div>
+	</div>
+</div>
+<div class="col-lg-8 col-xs-12 col-md-8" style="padding-top: 10px">
+	<div class="card">
+		<div class="cointainer" style="width:100%">
+			<h2 class="txt-color" align="center" >Professional and Personal Carrier</h2>
+				<div class="table-responsive">
+					<table class="table">
+						<tbody>
+							<tr>
+								<td><h4 class="txt-color">Degree</h4></td>
+								<td><p class="txt-color"> Graduate Collage</p></td>
+										
+							</tr>
+							<tr>
+								<td><h4 class="txt-color">Degree</h4></td>
+								<td><p class="txt-color">Collage</p></td>
+								
+							</tr>
+							<tr>
+								<td><h4 class="txt-color">Job</h4></td>
+								<td><p class="txt-color">Office post</p></td>
+										
+							</tr>
+							<tr>
+								<td><h4 class="txt-color">major</h4></td>
+								<td><p class="txt-color">lorem</p></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>		
+					
+
+		</div>
+	</div>
+		<div class="card">
+		<div class="cointainer" style="width:100%;max-height:500px;overflow: auto;" id="twitter">
+			<a class="twitter-timeline" href="https://twitter.com/ayush2017">Tweets by ayush2017</a> <script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+		</div>
+	</div>
+</div>
+</div>
+<div style="padding-top:100px">
+
+<!--contact me-->
+<div class="col-lg-4 col-xs-12 col-md-4" style="padding-top: 10px">
+
+</div>
+<div class="col-lg-4 col-xs-12 col-md-4" style="padding-top: 10px">
+
+</div>
+</div>
+	</body>
+</html>
