@@ -12,8 +12,8 @@
          <link rel="stylesheet" href="style.css">
 		
 	</head>
-<body ng-controller="RequestController as requestCtrl">
-				<nav class="navbar navbar-inverse navbar-fixed-top" >
+<body  data-spy="scroll" data-target=".navbar">
+				<nav class="navbar navbar-default navbar-fixed-top" >
 			 <div class="container-fluid">
 			 	<div class="navbar-header">
     			
@@ -41,11 +41,10 @@
 		   				 	<li><a href="askques.html">Ask a Question</a></li>
 
 		   				 </ul>
-		   				
-		   				 	<p class="navbar-text" style="float:right; font-family:serif; font-size: 15px; color:#fff ">
-		   				 	<strong>Hospital Name</strong></p>
+		   				<ul class="nav navbar-nav navbar-right navbar-text">
+		   				   <h4 class="h4">Hospital Name</h4>
 
-		   				
+		   				</ul>
 		               
 				</div>	
 			 </div>
